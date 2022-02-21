@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     fun setText(view: View) {
         val editText = findViewById<EditText>(R.id.editText)
-        val input = editText.text.toString()
+        val input = " - " + editText.text.toString()
         val textView = findViewById<TextView>(R.id.textView)
         val current = textView.text.toString()
         textView.text = current + "\n" + input
