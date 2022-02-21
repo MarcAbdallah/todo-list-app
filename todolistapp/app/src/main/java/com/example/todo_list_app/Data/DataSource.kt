@@ -13,8 +13,6 @@ class DataSource {
             Weekdays(R.string.Friday),
             Weekdays(R.string.Saturday),
             Weekdays(R.string.Sunday)
-
         )
-
     }
-} //this is a comment
+}
